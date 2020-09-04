@@ -8,8 +8,7 @@ Base = declarative_base()
 
 class Inventory(Base):
     __tablename__ = 'inventory'
-    id = Column(INTEGER, primary_key=True)
-    productId = Column(CHAR(50))
+    productId = Column(CHAR(50), primary_key=True)
     groupProductId = Column(CHAR(50))
     color = Column(CHAR(20))
     category = Column(CHAR(50))

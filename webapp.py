@@ -9,11 +9,9 @@ def create_app():
     # run migrations
     logging.info("Running Migrations")
 
-
     app = Flask(__name__)
 
     # ...
-
     from views.catalogue import bp
     app.register_blueprint(bp)
 
