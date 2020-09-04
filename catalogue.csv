@@ -1,0 +1,2 @@
+productId,groupProductId,color,category,sizeType,sizeInventory,price,images,merchantId
+p001,g001,yellow,pant,uk,"{ ""s"": ""20"", ""m"": ""5"", ""l"": ""2""}'",1200,"[""https://xyz.s3.com/pd001/1"", ""https://xyz.s3.com/pd001/2"",  ""https://xyz.s3.com/pd001/1""]'",m001
